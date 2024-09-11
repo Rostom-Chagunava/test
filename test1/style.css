@@ -1,0 +1,12 @@
+.container{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+
+.child{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
