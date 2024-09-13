@@ -1,0 +1,183 @@
+
+@media (max-width:1100px){
+    #about-container{
+        flex-direction: column-reverse;
+    }
+    .map-rest{
+        width: 100%;
+        height: 300px;
+    }
+    #restourant-about div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pizzeriaSection{
+        flex-direction: column;
+    }
+
+    #pizza-description-container{
+        flex-direction: column;
+    }
+    #img-description{
+        width: 60%;
+      
+    }
+    #description-intro{
+        width: 60%;
+    }
+    /* create your own */
+    #create-own-container{
+        flex-direction: column;
+        
+    }
+    #check-ingredients{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:800px){
+
+    /* #careers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    
+    } */
+
+    /* nav */
+    #nav{
+        display: none;
+    }
+
+    #nav1{
+        display: flex;
+    }
+
+
+    /*  */
+    #basket-shopping{
+        display: none;
+    }
+
+    #basket-shopping1{
+        display: block;
+    }
+    /*  */
+
+    #salepizzas{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-wrap: wrap; */
+        align-self: center;
+        gap: 80px;
+    }
+    /*  */
+
+    main #careers #container1-carees #Six-reasons{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+   
+    main #careers #container3-carees{
+        flex-direction:column ;
+        gap: 50px;
+    }
+
+    /* menu-choice */
+    #menu-choice{
+        width: 90%;
+    
+    }
+    /* menu - description */
+    #img-description{
+        width: 90%;
+        height: 400px;
+    }
+    #description-intro{
+        width: 90%;
+    }
+    
+    #check-ingredients{
+        width: 50%;
+    }
+}
+
+@media(max-width:500px){
+    /*  */
+
+    #pizzeriaSection{
+        height: 120vh;
+    }
+    #pizzeriaSectionDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 40vh;
+    }
+
+    /*  */
+    #pizzeriaImg{
+        width: 40vh;
+        height: 40vh;
+        background-color: red;
+        border-radius: 60% 90px 60% 90px;
+    }
+    #pizzeriaImg img{
+        width: 40vh;
+        height: 40vh;
+        border-radius: 90px 60% 90px 60%;
+    }
+
+    #header-cover-image1{
+        margin:0;
+       
+    }
+
+    #order{
+        display: none;
+    }
+
+    #order1{
+        padding: 3px;
+        display: block;
+    }
+
+    main #careers #container1-carees #Six-reasons{
+        grid-template-columns: 1fr;
+    }
+
+    main #carees #container3-carees #form-caree{
+        width: 200px;
+    }
+
+    main #carees #container3-carees #user-date{
+        width: 200px;
+    }
+
+    
+    /*  */
+
+
+    #create-own-container{
+        width: 100%;
+    }
+    #dough{
+        width:100%;
+        gap: 0;
+    }
+    #check-ingredients{
+        width: 70%;
+    }
+}
+
+
+

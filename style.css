@@ -1,0 +1,1390 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-around; */
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    /* max-width:1200px; */
+}
+/* sylt header */
+
+#header{
+    background-image: url(/image/pizzeria.gif);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+/*  */
+
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #bd0404;
+    padding:0 25px;
+    /* position: relative;
+    height: 9vh; */
+    /* display: none; */
+}
+
+#manu{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #e7e4e3;
+    /* gap: 30px; */
+}
+
+.about{
+    cursor: pointer;
+}
+
+.Careers{
+    cursor: pointer;
+}
+
+.Menu{
+    cursor: pointer;
+}
+
+#header-cover-image{
+    cursor: pointer;
+}
+
+#basket-shopping{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#basket-shopping1{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 70px;
+    color: #ffffff;
+    font-size: 30px;
+    display: none;
+}
+
+/* .basket-shopping{
+    color: #ffffff;
+} */
+
+
+
+#Order{
+    padding:2px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+
+#Order:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #008000;
+}
+
+#order{
+    margin: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#order1{
+    margin: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    display: none;
+}
+
+#header-cover-image{
+    width: 60px;
+    height: 60px;
+    background-image: url(/image/logo1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    transform: translateY(10px);
+    border: 1px solid black;
+    box-shadow: 0 0 5px #008000;
+    border-radius: 50%;
+    transition:transform 0.5s;
+    cursor: pointer;
+}
+
+#header-cover-image:hover{
+    transform: translateY(5px);
+    border: 2px solid #008000;
+    box-shadow: 0 0 5px #008000;
+    border-radius: 50%;
+}
+
+/* nav1 */
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #bd0404;
+    padding:0 25px;
+    
+    display: none;
+}
+
+
+
+/* bascket */
+
+#basket-container{
+    width: 100%;
+    background-color: #e7e4e3;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+#titel-Product{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+
+
+}
+
+.Product-div{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    /* height: 100px; */
+    /* justify-content:space-evenly; */
+}
+
+#empti{
+    margin: 5px 0;
+    width: 100%;
+    height: 5vh;
+    background-color: #000000;
+}
+
+
+#Product-container .Product-div img{
+    width: 10%;
+}
+
+
+.src-basket{
+    background-image: url(/image/cheese-bonanza-sarpinos-static.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/*  */
+
+#burger-menu{
+    display: none;
+}
+
+
+#burger-menu-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    left: 8px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 7px 14px;
+    list-style: none;
+    width: 100px;
+    text-align: start;
+    
+}
+
+/* #burger-menu-container li{
+    color: #681b0a;
+} */
+
+
+#burger-menu-container li{
+    padding: 5px;
+    background-color: #e2b8af;
+
+    border-radius: 2px;
+    color: #681b0a;
+}
+#menu{
+    color: #0c0404;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 1px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#menu:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px #008000;
+}
+
+#header-cover-image1{
+    width: 60px;
+    height: 60px;
+    background-image: url(/image/logo1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-left:30px;
+    transform: translateY(10px);
+    border: 1px solid black;
+    box-shadow: 0 0 5px #008000;
+    border-radius: 50%;
+    transition:transform 0.5s;
+    cursor: pointer;
+}
+
+#header-cover-image1:hover{
+    transform: translateY(5px);
+    border: 2px solid #008000;
+    box-shadow: 0 0 5px #008000;
+    border-radius: 50%;
+}
+
+#Order1{
+    padding:2px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+
+#Order1:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #008000;
+}
+
+#order1{
+    margin: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* main section */
+#menuSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #d9e7d953;
+    margin-top:0;
+    /* display: none; */
+}
+
+
+#salepizzas{
+    width: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-self: center;
+    gap: 80px;
+}
+
+#salepizzas .salesdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#salepizzas .salesdiv .name-of-salepizza{
+    margin: 5px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#p{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#menuSection #salepizzamain .image{
+    width: 100%;
+    height: 100%;
+    border-radius: 70%;
+    transition: 0.5s;
+}
+
+#menuSection #salepizzamain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#menuSection #salepizzamain .image:hover{
+    transform: scale(1.1);
+
+}
+/* main-about-seqtion */
+
+#pizzeriaSection{
+    margin: 50px;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content:space-around;
+    align-items: center;
+    /* display: none; */
+}
+#pizzeriaSectionDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+}
+#pizzeriaSectionDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+#pizzeriaSectionDiv1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+}
+#pizzeriaSectionDiv2{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#pizzeriaSectionDiv2 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#pizzeriaSectionDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#pizzeriaSectionDiv button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    background-color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+#pizzeriaSectionDiv2 p{
+    cursor: pointer;
+}
+
+#pizzeriaImg{
+    width: 60vh;
+    height: 60vh;
+    background-color: red;
+    border-radius: 60% 90px 60% 90px;
+}
+#pizzeriaImg img{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 90px 60% 90px 60%;
+}
+/*  */
+
+
+/* /  ---------------------------------------------------------------------- */
+/* about */
+
+#about-container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    display: none;
+}
+
+#about-container h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #076316;
+}
+
+#restourant-about{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    font-family: "Lilita One", sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+
+#img-tbilisi-rest{
+    height: 200px;
+    width: 200px;
+    background-image:url(/image/pizza-hous-tbilisi.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#img-kutaisi-rest{
+    height: 200px;
+    width: 200px;
+    background-image:url(/image/pizza-hous-kutais.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.hr{
+    line-height:5px;
+}
+
+.fa-solid{
+    font-size: 20px;
+    color: #f32f03;
+}
+
+/*  */
+
+
+
+
+/* section  of carees */
+
+#careers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    display: none;
+}
+
+
+
+main #careers #container1-carees{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+main #careers #container1-carees #titel h2{
+    color: #000000;
+}
+
+main #careers #container1-carees #Six-reasons{
+    display: grid;
+    grid-template-columns: repeat(
+        3,1fr
+    );
+    gap: 80px 30px;
+}
+
+main #careers #container1-carees #Six-reasons .reason{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+main #careers #container1-carees #Six-reasons .reason2 img{
+    transform: rotate(60deg);
+}
+
+main #careers #container1-carees #Six-reasons .reason3 img{
+    transform: rotate(120deg);
+}
+
+main #careers #container1-carees #Six-reasons .reason4 img{
+    transform: rotate(180deg);
+}
+
+main #careers #container1-carees #Six-reasons .reason5 img{
+    transform: rotate(240deg);
+}
+
+main #careers #container1-carees #Six-reasons .reason6 img{
+    transform: rotate(300deg);
+}
+
+main #careers #container1-carees #Six-reasons .reason hr{
+    width: 50%;
+    align-self: center;
+
+    font-weight: 900;
+    color: #000000;
+}
+
+
+main #careers #container1-carees #Six-reasons .reason img{
+    align-self: center;
+    width: 200px;
+}
+
+main #careers #container1-carees #Six-reasons .reason h4{
+    text-align: center;
+    color: #EF4638;
+}
+
+/*main #carees container2-carees */
+
+main #careers #container2-carees{
+    position: relative;
+    align-self: center;
+    overflow: hidden;
+    width:100%;
+    height: 150px;
+    /* transition: 0.5s ease; */
+}
+
+
+
+
+main #careers #child-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    width:1500px;
+}
+
+
+main #careers #container2-carees #child-container .team{
+    /* background-image: url("/image/team1.jpeg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+
+main #careers #container2-carees #child-container .team1{
+    background-image: url("/image/team1.jpeg");
+}
+
+main #careers #container2-carees #child-container .team2{
+    background-image: url("/image/Team2.jpg");
+}
+
+main #careers #container2-carees #child-container .team3{
+    background-image: url("/image/Team3.jpeg");
+}
+
+main #careers #container2-carees #child-container .team4{
+    background-image: url("/image/Team4.jpeg");
+}
+
+main #careers #container2-carees #child-container .team5{
+    background-image: url("/image/Team5.jpg");
+}
+
+main #careers #container2-carees #child-container .team6{
+    background-image: url("/image/Team6.jpg");
+}
+
+main #careers #container2-carees #child-container .team7{
+    background-image: url("/image/Team7.jpg");
+}
+main #careers #container2-carees #child-container .team8{
+    background-image: url("/image/Team8.jpg");
+}
+
+main #careers #container2-carees #child-container .team9{
+    background-image: url("/image/Team9.jpg");
+}
+
+main #careers #container2-carees #child-container .team10{
+    background-image: url("/image/Team10.jpg");
+}
+
+main #careers #container2-carees #child-container .team11{
+    background-image: url("/image/Team11.jpg");
+}
+
+main #careers #container2-carees #child-container .team12{
+    background-image: url("/image/Team12.jpg");
+}
+
+main #careers #container2-carees #child-container .team13{
+    background-image: url("/image/Team13.webp");
+}
+
+main #careers #container2-carees #child-container .team14{
+    background-image: url("/image/Team14.jpg");
+}
+
+
+main #careers #container2-carees #child-container .team15{
+    background-image: url("/image/Team15.jpg");
+}
+
+
+/* main #carees #container3-carees */
+
+main #careers #container3-carees{
+    align-self: center;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 200px; */
+    /* flex-wrap: wrap; */
+    margin: 60px 20px;
+}
+
+
+main #careers #container3-carees #form-caree{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(202, 13, 13);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(231, 217, 18);
+}
+
+main #careers #container3-carees #user-date{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid rgb(202, 13, 13);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(231, 217, 18);
+    overflow: hidden;
+}
+
+main #careers #container3-carees #user-date p{
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+main #careers #container3-carees #user-date .user{
+    color: rgb(11, 11, 11);
+    text-transform: capitalize;
+    
+}
+
+
+/* main #careers{
+    display: none;
+} */
+
+/* /////////////********************** MANU****************************** */
+
+/* ------------------------------ */
+/* Menu Conainer */
+/* ------------------------------ */
+#main-manu-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+}
+
+/* menu-choice */
+
+
+#menu-choice{
+    width: 40%;
+    background-color: #076316;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #ffff;
+    box-shadow: 0px 0px 10px rgb(1, 1, 26);
+}
+
+#menu-choice ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#menu-choice li{
+    list-style: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-family: "Lilita One", sans-serif;
+}
+
+#menu-choice li:hover{
+    transform: scale(1.2);
+}
+
+
+/* search-container */
+
+#search-container{
+    padding: 20px;
+    background-color: #24630752;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#prise-sort input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    gap: 5px;
+
+}
+
+#search-div .fa-solid{
+    font-size: 20px;
+}
+
+#search{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+#container-menu{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,400px));
+    width: 80%;
+}
+
+
+
+.pizza-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pizza-card-img{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pizza-card h1{
+    font-family: "Lilita One", sans-serif;
+    color: #076316;
+    cursor: pointer;
+
+}
+.pizza-card h4{
+    font-family: "Lilita One", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+.pizza-card .card-link-div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pizza-card .card-link-div button{
+    padding: 5px 20px;
+    background-color: #f32f03;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pizza-card .card-link-div button:hover{
+    background-color: #076316;
+    color: #ffff;
+}
+
+.pizza-card .card-link-div a{
+    text-decoration: none;
+    color: #f32f03;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.pizza-card .card-link-div a:hover{
+    color: #076316;
+    border-bottom: 1px double #076316;
+}
+
+
+/* descriprtion */
+
+/*  */
+
+.image-url{
+    display: none;
+}
+
+#pizza-description-container{
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  display: none;
+}
+
+#img-description{
+    width: 40%;
+    height: 600px;
+    background-image: url(/img/BLT-sarpinos-static.jpg);
+    background-size:cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(1, 1, 61);
+}
+
+
+
+#description-intro{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    gap: 40px;
+    width: 40%;
+}
+
+#description-intro h4{
+    font-size: 25px;
+    font-family: "Lilita One", sans-serif;
+    color: #f32f03;
+    letter-spacing: 1px;
+}
+
+
+#name-description{
+    font-family: "Lilita One", sans-serif;
+    color:  #076316;
+    font-size: 40px;
+}
+
+#title-description{
+    font-size: 20px;
+    width:90%;
+}
+
+#pizza-size{
+    display: flex;
+    gap: 10px;
+}
+
+#pizza-size div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #076316;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(2, 2, 87);
+    font-family: "Lilita One", sans-serif;
+    
+}
+
+#pizza-size div:hover{
+    border: 2px solid #f32f03;
+    box-shadow: 0px 0px 10px #681b0a;
+}
+
+#pizza-description-lists li{
+    font-weight: 700;
+    list-style: none;
+    font-size: 20px;
+}
+
+#pizza-description-lists span{
+    font-weight: 300;
+}
+
+#order-btn{
+    padding: 5px 30px;
+    background-color: #f32f03;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    width: fit-content;
+}
+
+
+
+#order-btn:hover{
+    background-color: #076316;
+    color: #ffff;
+}
+
+/* create your own */
+
+#create-own-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    display: none;
+}
+
+#dough{
+    width: 450px;
+    height: 500px;
+    background-image: url(/image/ingredients\ -dough.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#dough div{
+    animation-name: move;
+    animation-duration: 1s;
+}
+
+
+#dough div{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* lori */
+#lori-div{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.lori{
+    width: 100px;
+    position: absolute;
+}
+
+.lori2{
+    bottom: 5px;
+    transform: rotate(91deg);
+}
+
+.lori3{
+    right: 0px;
+}
+
+.lori4{
+    bottom: 0px;
+    right: 16px;
+    transform: rotate(41deg);
+}
+
+.lori5{
+    top: 22%;
+    left: 36%;
+
+}
+
+/* mashroom */
+
+#mashroom-div{
+    position: relative;
+    z-index: 7;
+}
+
+.mashroom{
+    width: 100px;
+    position: absolute;
+}
+
+.mashroom1{
+    left: -250px;
+    bottom: -55px;
+}
+
+.mashroom2{
+    top: 0;
+    right: 0;
+}
+.mashroom3{
+    bottom: 9px;
+    right: 31px;
+}
+.mashroom4{
+    top: -120px;
+    right: 224px;
+}
+.mashroom5{
+    bottom: 45px;
+    right: 107px;
+}
+
+
+
+
+
+
+/* peperoni */
+#peperoni-div{
+
+    z-index: 2;
+    position: relative;
+}
+
+.peperoni{
+    position: absolute;
+    width: 100px;
+}
+
+.peperoni2{
+    top:-200px;
+    right: 106px;
+}
+
+.peperoni3{
+    bottom: -60px;
+    left: -70px;
+    transform: rotate(187deg);
+}
+.peperoni4{
+    top: 65px;
+    left: -206px;
+}
+
+.peperoni1{
+    top: -54px;
+    right: 232px;
+}
+
+/* tomato */
+#tomato-div{
+    position: relative;
+    z-index: 3;
+}
+
+.tomato{
+    position: absolute;
+    width: 80px;
+}
+
+.tomato1{
+    top:0px;
+    right: 0px;
+}
+
+.tomato2{
+    top: 28px;
+    right: 141px;
+}
+
+.tomato3{
+    bottom: 121px;
+    left: -126px;
+}
+
+.tomato4{
+    bottom: 95px;
+    left: -270px;
+}
+
+.tomato5{
+    bottom: -67px;
+    right: 264px;
+}
+
+.tomato6{
+    bottom: 14px;
+    right: 125px;
+}
+
+.tomato7{
+    top: -87px;
+    right: -29px;
+}
+
+.tomato8{
+    top: 81px;
+    right: 62px;
+}
+
+
+
+/* vegetable */
+#vegetable-div{
+    position: relative;
+    z-index: 9;
+}
+
+.vegetable{
+    width: 80px;
+    position: absolute;
+}
+
+.vegetable1{
+    top: -6px;
+    right: 62px;
+}
+.vegetable2{
+    bottom: 120px;
+    right: 176px;
+}
+.vegetable3{
+    top: 76px;
+    right: 181px;
+}
+.vegetable4{
+    top: -123px;
+    right: -14px;
+}
+.vegetable5{
+    top: -57px;
+    right: 176px;
+}
+
+
+/* onion */
+#onion-div{
+    position: relative;
+    z-index: 8;
+}
+
+.onion{
+    width: 60px;
+    position: absolute;
+}
+
+.onion1{
+    top: -60px;
+    right: 0;
+}
+.onion2{
+    bottom: 10px;
+    left: -270px;
+    
+}
+
+.onion3{
+    bottom: -86px;
+    left: -158px;
+}
+
+.onion4{
+    top: -123px;
+    right: 71px;
+}
+
+.onion5{
+    top: -205px;
+    right: 151px;
+}
+
+
+/* oregano */
+#oregano-div{
+    position: relative;
+    z-index: 10;
+}
+
+.oregano{
+    position: absolute;
+    width: 60px;
+}
+
+.oregano1{
+    top: 59px;
+    right: 0px;
+}
+
+.oregano2{
+    top: 20px;
+    right: 198px;
+}
+.oregano3{
+    top: -207px;
+    right: 88px;
+}
+.oregano4{
+    bottom: 45px;
+    right: 248px;
+}
+.oregano5{
+    top: -51px;
+    left: -105px;
+}
+
+.oregano6{
+    top: -102px;
+    left: -208px;
+}
+
+/* check-ingredients */
+
+#check-ingredients{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Lilita One", sans-serif;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+#check-ingredients h2{
+    font-family: "Lilita One", sans-serif;
+    color: #076316;
+    margin-bottom: 20px;
+}
+
+#check-ingredients input{
+    margin: 10px;
+}
+
+#total-ingredient-prise{
+    color: #f32f03;
+}
+
+#check-ingredients button{
+    padding: 5px 30px;
+    background-color: #f32f03;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+
+
+#check-ingredients button:hover{
+    background-color: #076316;
+    color: #ffff;
+}
+
+
+
+/* footer */
+
+
+footer{
+    align-self: flex-end;
+    margin-top: 20px;
+    width: 100%;
+    /* height: 40vh; */
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+}
+
+#reg2{
+    height: 10vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+
+
+#footinput{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+#footinput div input{
+    background-color: #fafafa;
+    padding:  5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn{
+    align-self: center;
+}
